@@ -1,0 +1,21 @@
+Below are data types...
+
+Primitive:
+==========
+
+Numbers, eg. 123, 34.56 etc.
+Strings of text e.g. "This text string" etc.
+Boolean e.g. true or false.
+
+Trivial data types:
+===================
+
+null
+undefined
+
+
+Scope of variables:
+==================
+
+Global
+Local
