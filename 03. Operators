@@ -1,0 +1,45 @@
+Operators
+
+Arithmetic Operators
+  Addition
+  Subtraction
+  Multiplication
+  division
+  modulus (%)
+  increment(++)
+  decrement(--)
+  
+Comparision Operators
+  equal(==)
+  notequal (!=)
+  greater than(>)
+  less than(<)
+  greater than or equalto (>=)
+  less than or equal to(<= )
+  
+
+Logical (or Relational) Operators
+  Logical AND(&&)
+  logical OR(||)
+  logical NOT(!)
+
+Assignment Operators
+  =
+  +=
+  -=
+  *=
+  /=
+  %=
+  
+
+
+
+Bitwise Operatore
+
+  Bitwise AND ( & )
+  Bitwise OR ( |)
+  Bitwise XOR ( ^ )
+  Bitwise NOT ( ~)
+  Left shift ( << )
+  Right shift (>> )
+  Right Shift with Zero ( >>> )
