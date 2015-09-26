@@ -1,0 +1,63 @@
+A function is a group of reusable code which can be called anywhere in program
+Functions allow a programmer to divide a big program into a number of small and manageable functions
+
+functions like alert() and write()
+
+
+Function Definition:
+====================
+
+The most common way to define a function in JavaScript is by using the function keyword, followed by a unique function name, 
+a list of parameters (that might be empty), and a statement block surrounded by curly braces.
+
+Syn:
+=====
+
+<script type="text/javascript">
+   <!--
+      function functionname(parameter-list)
+      {
+         statements
+      }
+   //-->
+</script>
+
+
+Example:
+=========
+
+<script type="text/javascript">
+   <!--
+      function sayHello()
+      {
+         alert("Hello Java Script");
+      }
+   //-->
+  </script>
+  
+  Calling a Function:
+  =================================
+  
+  
+  <html>
+   <head>
+   
+      <script type="text/javascript">
+         function sayHello()
+         {
+            document.write ("Hello Java Script!");
+         }
+      </script>
+      
+   </head>
+   <body>
+      <p>Click the following button to call the function</p>
+      
+      <form>
+         <input type="button" onclick="sayHello()" value="Say Hello">
+      </form>
+      
+      <p>Use different text in write method and then try...</p>
+   </body>
+</html>
+
