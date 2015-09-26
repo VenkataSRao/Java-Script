@@ -1,0 +1,27 @@
+For Looph has 3 parts ... those are
+
+
+loop initialization:
+====================
+where we initialize our counter to a starting value. The initialization statement is executed before the loop begins.
+
+test statement:
+================
+which will test if a given condition is true or not. If the condition is true, then the code given inside the loop will be 
+executed, otherwise the control will come out of the loop.
+
+iteration:
+===========
+statement where you can increase or decrease your counter.
+
+
+
+syn:
+====
+
+for (initialization; test condition; iteration statement){
+   Statement(s) to be executed if test condition is true
+}
+
+
+
