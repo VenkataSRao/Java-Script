@@ -1,0 +1,55 @@
+
+JavaScript's interaction with HTML is handled through events that occur when the user or the browser manipulates a page.
+When the page loads, it is called an event
+When the user clicks a button, that click too is an event.
+Other examples include events like pressing any key, closing a window, resizing a window, etc.
+
+Events are a part of the Document Object Model (DOM) Level 3 and every HTML element contains a set of events which can trigger JavaScript Code.
+
+
+onclick Event Type:
+===================
+
+This is the most frequently used event type which occurs when a user clicks the left button of his mouse. 
+You can put your validation, warning etc., against this event type.
+
+Example
+
+<html>
+   <head>
+      
+      <script type="text/javascript">
+         <!--
+            function sayHello() {
+               alert("Hello World")
+            }
+         //-->
+      </script>
+      
+   </head>
+   
+   <body>
+      <p>Click the following button and see result</p>
+      
+      <form>
+         <input type="button" onclick="sayHello()" value="Say Hello" />
+      </form>
+      
+   </body>
+</html>
+
+
+
+onsubmit Event type:
+=====================
+
+onsubmit is an event that occurs when you try to submit a form. You can put your form validation against this event type.
+
+
+
+onmouseover and onmouseout:
+====================================
+
+These two event types will help you create nice effects with images or even with text as well. 
+The onmouseover event triggers when you bring your mouse over any element and the onmouseout triggers when you move your 
+mouse out from that element
