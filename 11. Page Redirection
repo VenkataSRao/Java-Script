@@ -1,0 +1,33 @@
+
+if user clicked a URL to reach a page X but internally has to directed to another page Y. 
+It happens due to page redirection. This concept is different from JavaScript Page Refresh..
+
+
+How page re-direct works:
+=============================
+
+It is quite simple to do a page redirect using JavaScript at client side. 
+To redirect your site visitors to a new page, you just need to add a line in your head section as follows.
+
+<html>
+   <head>
+      
+      <script type="text/javascript">
+         <!--
+            function Redirect() {
+               window.location="http://www.github.com";
+            }
+         //-->
+      </script>
+      
+   </head>
+   
+   <body>
+      <p>Click the following button, you will be redirected to home page.</p>
+      
+      <form>
+         <input type="button" value="Redirect Me" onclick="Redirect();" />
+      </form>
+      
+   </body>
+</html>
