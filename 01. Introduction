@@ -26,6 +26,8 @@ via the keyboard.
 Richer interfaces − You can use JavaScript to include such items as drag-and-drop components and sliders to give a Rich 
 Interface to your site visitors.
 
+
+
 Limitations of JavaScript:
 ==========================
 We cannot treat JavaScript as a full-fledged programming language. It lacks the following important features −
