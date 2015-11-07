@@ -52,3 +52,5 @@ var cust = new Object();
 var lan = new Array("C++", "Perl", "Java");
 var day = new Date("August 15, 1947");
 
+
+
