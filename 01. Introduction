@@ -28,6 +28,7 @@ Interface to your site visitors.
 
 
 
+
 Limitations of JavaScript:
 ==========================
 We cannot treat JavaScript as a full-fledged programming language. It lacks the following important features −
